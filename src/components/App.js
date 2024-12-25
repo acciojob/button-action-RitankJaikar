@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";  // Import the CSS file for styling
+import "../styles/App.css";  // Import the CSS file for styling
 
 function App() {
   // Step 1: Set up state to manage the visibility of the paragraph
@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div id="main">
+    <div className="App" id="main">
       <button id="click" onClick={toggleVisibility}>
         Click Me
       </button>
