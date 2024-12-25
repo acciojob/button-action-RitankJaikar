@@ -1,1 +1,10 @@
 /* Your CSS code here. */
+.hide {
+    display: none;
+  }
+  
+  /* Show the paragraph when the button is clicked */
+  .show {
+    display: block;
+    margin-top: 10px;
+  }
